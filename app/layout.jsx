@@ -8,7 +8,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body
+        className="bg-cover bg-center bg-fixed h-[100vh]"
+        style={{ backgroundImage: "url('/kanaBG.png')" }}
+      >
         {children}
       </body>
     </html>

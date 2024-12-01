@@ -11,8 +11,8 @@ export function AppleCardsCarouselDemo() {
     return (
         (<div className="w-full h-full py-20">
             <h2
-                className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-                Посвящается Раслану
+                className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 font-sans">
+                Какие то рандомные фотки
             </h2>
             <Carousel items={cards} />
         </div>)
@@ -50,45 +50,45 @@ const DummyContent = () => {
 
 const data = [
     {
-        category: "Зинат1",
-        title: "Молодой tipper (Tipper), пятьсот на чаевые (Ага)",
+        category: "1",
+        title: "XD XD XD", 
         src: "/carousel1.jpeg",
         content: <></>,
     },
     {
-        category: "Кайрат",
-        title: "Еду на двадцатых, я родился в нулевые (Skrrt, skrrt)",
+        category: "2",
+        title: "Нефоры",
         src: "/carousel2.jpg",
         content: <></>,
     },
     {
-        category: "Крос",
-        title: "Белый хочет (А) делать bag. Do you feel me? (А?)",
+        category: "3",
+        title: "Один Мозг на двоих",
         src: "/carousel3.jpeg",
         content: <></>,
     },
 
     {
-        category: "Зинат2",
-        title: "Ещё вчера мы ходили (Да), теперь мы тратим эти… ",
+        category: "4",
+        title: "ХЗ как коментировать это",
         src: "/carousel4.jpeg",
         content: <></>,
     },
     {
-        category: "Актан",
-        title: "A milli, a milli, a milli, a milli, yeah-yeah",
+        category: "5",
+        title: "Бомжы в ЮГ-2",
         src: "/carousel5.jpg",
         content: <></>,
     },
     {
-        category: "Зинат3",
-        title: "A mil-a milli, a milli, a milli, a milli, a mi—",
-        src: "/carousel6.jpeg",
+        category: "6",
+        title: "👶👶👶👶🍼🍼🍼🍼🍼",
+        src: "/carousel6.jpg",
         content: <></>,
     },
     {
-        category: "Даир",
-        title: "A mil-a milli, a milli, a milli, a milli, a mi—",
+        category: "7",
+        title: "Typical kanykey:",
         src: "/carousel7.jpg",
         content: <></>,
     },
